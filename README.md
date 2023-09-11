@@ -105,6 +105,7 @@ In this section, I will visually analyze the cluster analysis results by contras
 
 ![](Images/scatter_plot.png)
 
+
 - Answer the following question:
   
 **What is the impact of using fewer features to cluster the data using K-Means?**
