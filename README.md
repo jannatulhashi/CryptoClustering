@@ -64,6 +64,7 @@ I'll use the following steps to cluster the cryptocurrencies for the best value 
 
 - Using the original scaled DataFrame, perform a PCA and reduce the features to three principal components.
 - Retrieve the explained variance to determine how much information can be attributed to each principal component and then I'll answer the following question in my notebook:
+  
       - What is the total explained variance of the three principal components?
 - Create a new DataFrame with the PCA data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
      - The first five rows of the PCA DataFrame should appear as follows:
@@ -105,7 +106,9 @@ In this section, I will visually analyze the cluster analysis results by contras
 ![](Images/scatter_plot.png)
 
 - Answer the following question:
+  
 **What is the impact of using fewer features to cluster the data using K-Means?**
+  
 **Answer:**  The impact of using fewer features such as through PCA to cluster the data using K-Means are:
   
   **Clarity in Visualization:** The clusters visualized in a reduced-dimensional space (like PCA1 vs. PCA2) often appear more distinct and separated, leading to clearer visual interpretation.
